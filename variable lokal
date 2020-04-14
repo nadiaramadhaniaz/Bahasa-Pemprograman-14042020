@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int exampleFunction () {
+	
+	//deklarasi variable
+	int n = 25;
+	return n;
+	//variable dihancurkan
+}
+
+int main () {
+	int n = 30;
+	cout << "Ini adalah variable lokal dari fungsi utama " << n << endl;
+	cout << "Ini adalah variable lokal dari fungsi exampleFunction " << exampleFunction();
+	cout << endl;
+}
