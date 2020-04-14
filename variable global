@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int b = 12;
+
+int fungsiKedua () {
+	int c = 24;
+	return c;
+}
+
+int fungsiKetiga () {
+	int n = 25;
+	return n;
+}
+
+int main () {
+	cout << "Ini adalah variable global " << b << endl;
+	cout << "Ini adalah variable global kedua " << fungsiKedua () << endl;
+	cout << "Ini adalah variable global ketiga " << fungsiKetiga () << endl;
+}
